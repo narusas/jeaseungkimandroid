@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/FillAll.Vertical">
+
+	<TextView style="@style/FillWidth" android:id="@+id/txt_dialog_sample_subject" android:text="DIALOG SAMPLES" />
+	<ListView style="@style/FillWidth" android:layout_weight="1" android:id="@+id/list_dialog_samples"></ListView>
+    
+</LinearLayout>

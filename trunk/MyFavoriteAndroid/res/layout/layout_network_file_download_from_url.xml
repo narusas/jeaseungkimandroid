@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillAll.Vertical" >
+
+    <EditText style="@style/FillWidth" android:id="@+id/edit_network_file_download_url" android:text="http://www.ifad.org/climate/resources/africa.pdf" />
+	<Button style="@style/FillWidth" android:id="@+id/btn_network_file_download" android:text="FILE DOWNLOAD" />
+    <TextView style="@style/FillWidth" android:id="@+id/txt_network_file_information" android:layout_weight="1"
+        android:background="@color/SteelBlue" android:textColor="@color/White" android:gravity="left" />
+    
+</LinearLayout>

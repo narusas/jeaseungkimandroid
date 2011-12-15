@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/FillAll.Vertical" >
+<LinearLayout style="@style/FillAll.Vertical">
+
+	<TextView style="@style/FillWidth" android:id="@+id/list_sample_subject" android:text="@string/list_sample_subject" />
+	
+    <Button style="@style/FillWidth" android:id="@+id/go_array_list" android:text="Array Adapter" />
+    <Button style="@style/FillWidth" android:id="@+id/go_simple_array_list" android:text="Simple Array Adapter" />
+    <Button style="@style/FillWidth" android:id="@+id/go_simpleexpandablelist_list" android:text="Simple Expandable List" />
+    <Button style="@style/FillWidth" android:id="@+id/go_group_list" android:text="Group Header List" />
+    <Button style="@style/FillWidth" android:id="@+id/go_custom_array_list" android:text="Custom Array Adapter" />
+    <Button style="@style/FillWidth" android:id="@+id/go_dynamic_array_list" android:text="Dynamic Array Adapter" />
+    
+</LinearLayout>
+</ScrollView>

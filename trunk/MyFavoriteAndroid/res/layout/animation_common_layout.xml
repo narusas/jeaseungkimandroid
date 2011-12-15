@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillAll" >
+
+    <ImageView
+        android:id="@+id/image_animation_common"
+        style="@style/FillAll"
+        android:src="@drawable/model1"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>

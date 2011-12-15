@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">My Android Template Pieces</string>
+    <string name="app_name">MyFavoriteAndroid</string>
+    <string name="list_sample_subject">리스트 샘플</string>
+
+</resources>

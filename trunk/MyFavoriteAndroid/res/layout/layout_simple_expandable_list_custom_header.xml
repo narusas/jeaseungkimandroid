@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/FillWidth.Horizontal" android:id="@+id/my_simple_expandable_grp_header" android:background="@color/SteelBlue">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="28dp"
+	    android:layout_weight="1" android:id="@+id/my_simple_expandable_grp_header_name"
+	    android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+	    android:paddingLeft="60dp"/>
+	<TextView android:layout_width="wrap_content" android:layout_height="28dp"
+	    android:layout_weight="1" android:id="@+id/my_simple_expandable_grp_header_subject"
+	    android:layout_toRightOf="@id/my_simple_expandable_grp_header_name"
+	    android:layout_alignParentTop="true" android:paddingLeft="30dp"/>
+</RelativeLayout>

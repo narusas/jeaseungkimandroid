@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.asky78.android.favorite"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/DefaultAll">
+        <activity android:label="@string/app_name" android:name=".MyFavoriteAndroidActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListSample" /><!-- LIST -->
+        <activity android:name=".listview.MyArrayList" />
+        <activity android:name=".listview.MySimpleArrayList" />
+        <activity android:name=".listview.MyExpandableList" />
+        <activity android:name=".listview.MyCustomList" />
+        <activity android:name=".listview.MyDynamicList" />
+        <activity android:name=".listview.MyGroupList" />
+        
+        <activity android:name=".NetworkSample" /><!-- NETWORK -->
+        <activity android:name=".network.NetworkFileDownload" />
+        <receiver android:name="org.asky78.android.receive.NetworkStatusChangeReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.NETWORK_IDS_CHANGED"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        
+        <activity android:name=".DialogSample" /><!-- DIALOG -->
+        
+        <activity android:name=".AnimationSample" /><!-- ANIMATION -->
+        <activity android:name=".animation.MyAlphaAnimation" />
+        <activity android:name=".animation.MyScaleAnimation" />
+        <activity android:name=".animation.MyAlphaScaleAnimation" />
+        <activity android:name=".animation.MyAlphaScaleTransRotateAnimation" />
+        <activity android:name=".animation.MyContinuousAnimation" />
+        
+        <activity android:name=".ActivitySample" /><!-- ACTIVITIES -->
+        <activity android:name=".activity.MyTransparentActivity" android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".activity.MyActivityForResultCaller" />
+        <activity android:name=".activity.MyActivityForResultAnswer" />
+        <activity android:name=".activity.DeviceRising" />
+        <activity android:name=".activity.Popup" android:theme="@android:style/Theme.Dialog">            
+        </activity>
+        
+        <activity android:name=".SMSMessageSample" /><!-- SMS -->
+        <activity android:name=".sms.MySMSSendMessageActivity" />
+        <receiver android:name=".sms.MySMSMessageReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name=".sms.MySMSMessageListActivity" />
+        
+        <activity android:name=".ActionSample" /><!--Touch Event, Action  -->
+        <activity android:name=".action.HUDAction" />
+        <activity android:name=".action.HUDMoveAction" />
+        
+        <activity android:name=".ResourceManagement" />
+        <activity android:name=".resources.RefreshStorage" />
+        <activity android:name=".resources.DeviceDisplayInfo" />
+    </application>
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" /><!-- 네트워크 사용 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><!-- 네트워크 3G 상태 정보 얻기 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /><!-- 네트워크 3G 상태 변경 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /><!-- 네트워크 Wi-Fi 상태 정보 얻기 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /><!-- 네트워크 Wi-Fi 상태 변경 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/><!-- File Read/Write -->
+    <uses-permission android:name="android.permission.SEND_SMS"/><!-- SEND SMS -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/><!-- RECEIVE SMS -->
+    <uses-permission android:name="android.permission.READ_SMS" /><!-- SMS 목록 읽기 -->
+	<uses-permission android:name="android.permission.WRITE_SMS" /><!-- SMS 목록 쓰기 -->
+	<!--uses-permission android:name="android.permission.WRITE_CONTACTS" /--><!-- 연락처 목록 쓰기 -->
+	<!--uses-permission android:name="android.permission.READ_CONTACTS" /--><!-- 연락처 목록 읽기 -->
+	<!--uses-permission android:name="android.permission.READ_CONTACTS" /--><!-- 통화 내역 읽기 -->
+</manifest>

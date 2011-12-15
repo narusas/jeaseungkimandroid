@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillAll.Vertical" >
+
+    <TextView
+        android:id="@+id/txt_common_only_textview_full"
+        style="@style/FillWidth"
+        android:text="공통으로 사용하는 text만 있는 창" />
+
+</LinearLayout>

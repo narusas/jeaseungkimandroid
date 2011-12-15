@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 안에 아무것도 없는 dialog -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/WrapAll" >
+    <ImageView style="@style/WrapAll" android:src="@drawable/infomation" />
+</LinearLayout>

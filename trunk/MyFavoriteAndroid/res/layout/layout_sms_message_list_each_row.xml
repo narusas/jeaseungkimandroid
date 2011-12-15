@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp">
+    
+    <ImageView android:layout_width="40dp" android:layout_height="40dp"
+        android:id="@+id/layout_custom_list_each_row_image"
+        android:src="@drawable/bt_delete_rounded"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:layout_alignParentLeft="true" />
+    
+	<TextView style="@style/WrapAll" android:layout_height="21dp"
+	    android:id="@+id/layout_custom_list_each_row_text_name"
+	    android:text="sdlkfjslkdjf"
+	    android:focusable="false"
+	    android:layout_toRightOf="@id/layout_custom_list_each_row_image"
+	    android:layout_alignParentTop="true" />
+	
+	<TextView style="@style/WrapAll" android:layout_height="21dp"
+	    android:id="@+id/layout_custom_list_each_row_text_value"
+	    android:text="345724759837495729"
+	    android:focusable="false"
+	    android:layout_toRightOf="@id/layout_custom_list_each_row_image"
+	    android:layout_below="@id/layout_custom_list_each_row_text_name" />
+	
+	<CheckBox android:layout_width="38dp" android:layout_height="38dp"
+        android:id="@+id/layout_custom_list_each_row_chkbox"
+        android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:focusable="false"
+	    android:visibility="gone" />
+	
+</RelativeLayout>
