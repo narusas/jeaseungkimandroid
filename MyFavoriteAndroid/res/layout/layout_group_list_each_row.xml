@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillWidth">
+    
+    <LinearLayout style="@style/FillWidth" android:id="@+id/linear_group_list_each_row_header"
+        android:visibility="gone" android:layout_height="24dp" android:background="#CD2080F3"
+        android:focusable="false" android:clickable="false">
+        <TextView style="@style/FillWidth" android:id="@+id/txt_group_list_each_row_header" />
+    </LinearLayout>
+    <LinearLayout style="@style/FillWidth" android:id="@+id/linear_group_list_each_row_body"
+        android:layout_height="22dp">
+        <TextView style="@style/FillWidth" android:id="@+id/txt_group_list_each_row_body" />
+    </LinearLayout>
+    
+</LinearLayout>

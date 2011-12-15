@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillWidth" android:orientation="vertical" >
+    
+	<LinearLayout style="@style/FillWidth" android:id="@+id/grp_header" android:background="@color/SteelBlue">
+	    <TextView style="@style/FillWidth" android:id="@+id/header_title"/>
+	</LinearLayout>
+	<LinearLayout >
+	    <TextView style="@style/FillWidth" android:id="@+id/tv1" />
+	</LinearLayout>
+    
+</LinearLayout>

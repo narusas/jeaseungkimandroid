@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/FillAll.Vertical">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
+		<ListView style="@style/FillAll.Vertical" android:id="@android:id/list" ></ListView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="45dp"
+	    android:orientation="horizontal" android:gravity="center">
+	    <Button android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1"
+	        android:id="@+id/layout_custom_list_main_bt1" android:text="Add Item"/>
+	    <Button android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1"
+	        android:id="@+id/layout_custom_list_main_bt2" android:text="Remove Item"/>
+	    <Button android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1"
+	        android:id="@+id/layout_custom_list_main_bt3" android:text="NOTHING"/>
+	</LinearLayout>    
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/FillAll.Vertical" >
+<LinearLayout style="@style/FillAll.Vertical">
+
+	<TextView style="@style/FillWidth" android:id="@+id/showtext" android:text="@string/hello" />
+	
+    <Button style="@style/FillWidth" android:id="@+id/goList" android:text="여러 종류의 리스트들" />
+    <Button style="@style/FillWidth" android:id="@+id/goNetwork" android:text="네트워크" />
+    <Button style="@style/FillWidth" android:id="@+id/goActionEvent" android:text="터치의 모든것!" />
+    <Button style="@style/FillWidth" android:id="@+id/goTweenAnimation" android:text="트윈 애니메이션" />
+    <Button style="@style/FillWidth" android:id="@+id/goDialog" android:text="다양한 대화상자" />
+    <Button style="@style/FillWidth" android:id="@+id/goSMSMessage" android:text="SMS 문자 전송 및 수신" />
+    <Button style="@style/FillWidth" android:id="@+id/goMenubar" android:text="메뉴버튼" />
+    <Button style="@style/FillWidth" android:id="@+id/goActivityIntent" android:text="액티비티 (Activity)" />
+    <Button style="@style/FillWidth" android:id="@+id/goExplorer" android:text="탐색끼" />
+    <Button style="@style/FillWidth" android:id="@+id/goResource" android:text="자원 관리" />
+    <Button style="@style/FillWidth" android:id="@+id/goNavigator" android:text="GPS, 내 위치" />
+    <Button style="@style/FillWidth" android:id="@+id/goReceiver" android:text="Receiver, 방송수신" />
+<!-- 
+    <Button style="@style/FillWidth" android:id="@+id/temp6" android:text="temporary" />
+    <Button style="@style/FillWidth" android:id="@+id/temp7" android:text="temporary" />
+    <Button style="@style/FillWidth" android:id="@+id/temp8" android:text="temporary" />
+    <Button style="@style/FillWidth" android:id="@+id/temp9" android:text="temporary" />
+    <Button style="@style/FillWidth" android:id="@+id/temp10" android:text="temporary" />
+    <Button style="@style/FillWidth" android:id="@+id/temp11" android:text="temporary" />
+ -->
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillAll.Vertical" >
+
+    <TextView
+        style="@style/FillWidth"
+        android:id="@+id/txt_activity_for_result_caller_guide"
+        android:layout_weight="3"
+        android:background="@color/SteelBlue"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="26dp"
+        android:text="버튼을 눌러 호출될 Activity에서 결과값을 받습니다." />
+
+    <TextView
+        style="@style/FillWidth"
+        android:id="@+id/txt_activity_for_result_caller_show_result"
+        android:layout_weight="12"
+        android:background="@color/Beige"
+        android:textColor="@color/Orange"
+        android:textSize="21dp"
+        android:text="넘겨받은 결과값을 출력할 화면." />
+
+    <Button style="@style/FillWidth"
+        android:id="@+id/btn_activity_for_result_caller_start_button"
+        android:layout_weight="1"
+        android:text="다음 Activity 호출" />
+
+</LinearLayout>
