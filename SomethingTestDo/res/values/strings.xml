@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">테스트 합시다</string>
+    <string name="hello">테스트의 세계에 온것을 환영합니다!</string>
+
+</resources>
